@@ -1,0 +1,24 @@
+﻿Build started 8/10/2014 2:56:30 PM.
+     1>Project "C:\Users\Ody\Desktop\hw2-windows_VS2012\hw2-windows\hw2-windows.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Transform.cpp display.cpp main.cpp readfile.cpp
+         readfile.cpp
+         main.cpp
+         display.cpp
+         Transform.cpp
+     1>c:\users\ody\desktop\hw2-windows_vs2012\hw2-windows\transform.h(21): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\ody\desktop\hw2-windows_vs2012\hw2-windows\transform.cpp(11): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ody\desktop\hw2-windows_vs2012\hw2-windows\transform.cpp(20): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ody\Desktop\hw2-windows_VS2012\Debug\hw2-windows.exe" /INCREMENTAL /NOLOGO /LIBPATH:.\lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib glew32.lib glut32.lib glu32.lib opengl32.lib FreeImage.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Ody\Desktop\hw2-windows_VS2012\Debug\hw2-windows.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Ody\Desktop\hw2-windows_VS2012\Debug\hw2-windows.lib" /MACHINE:X86 Debug\display.obj
+         Debug\main.obj
+         Debug\readfile.obj
+         Debug\shaders.obj
+         Debug\Transform.obj
+         hw2-windows.vcxproj -> C:\Users\Ody\Desktop\hw2-windows_VS2012\Debug\hw2-windows.exe
+     1>Done Building Project "C:\Users\Ody\Desktop\hw2-windows_VS2012\hw2-windows\hw2-windows.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.69
